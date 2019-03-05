@@ -1,0 +1,50 @@
+.Profile {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+
+}
+.Profile-header {
+  text-align: center;
+
+}
+.Profile-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Profile-image {
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   width: 200px;
+   height: 200px;
+}
+.Image-block {
+  display: flex;
+   flex-wrap: wrap;
+   width: 250px;
+}
+.Profile-CloseButton {
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+   position: absolute;
+   right: 5%;
+   top: 1%;
+   background: #ffffff;
+}
+.Profile-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Profile-CloseButton:hover {
+  background: red;
+   border: 1px solid black;
+}

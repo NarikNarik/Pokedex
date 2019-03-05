@@ -1,0 +1,44 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+}
+.Pagination-button {
+  min-width: 25px;
+  padding: 2px 5px;
+  margin: 2px;
+  border: 1px solid black;
+  height: 30px;
+}
+.Pagination-button:hover {
+  cursor: pointer;
+}
+.button {
+  min-width: 25px;
+  height: 30px;
+  padding: 2px 5px;
+  border: 1px solid black;
+
+}
+.button:focus {
+  outline: none;
+  outline-offset: 0;
+}
+.button:hover {
+  cursor: pointer;
+}
+.Container-buttons {
+  margin: 0;
+  padding: 0;
+}
+.Current-button {
+  border: 2px solid red;
+}
+.Swaplimit-buttons {
+  height: 30px;
+  padding: auto 5px;
+  border: 1px solid black;
+  margin-top: 1%;
+  margin-right: 3%;
+}
